@@ -1,0 +1,52 @@
+body{
+	background: linear-gradient(to right, red, yellow);
+	text-align: center;
+}
+
+h1{
+	display: flex;
+	flex-wrap: wrap;
+	font-family:Arial;
+	text-align: center;
+	color: rgba(50,50,50,.7);
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px black;
+}
+input {
+	border-style: none;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,.5);
+	margin: 10px;
+}
+
+h2{
+
+	font-size: 15pt;
+	text-align: center;
+	color: rgba(50,50,50,.7);
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px black;
+
+}
+button {
+	width:auto;
+	height: 40px;
+	border-style: none;
+	background-color: rgba(50,50,50,.5);
+	color: white;
+	box-shadow: 0px 2px 4px black;
+	border-radius: 4px;
+	transition: all 1s;
+
+}
+button:hover{
+	background-color: rgba(0,0,0,1);
+	transform: scale(1.1);
+}
+h3 {
+	font-family: calibri;
+		text-shadow: 0px 0px 1px white;
+
+}
+
